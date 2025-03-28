@@ -38,14 +38,14 @@ export default {
 .el-header {
     padding: 0;
 }
+
 // .el-aside {
 //     height: flex;
 //     background-color: #D3DCE6;
 //     color: #333;
 //     text-align: center;
 //     line-height: 60px;
-// }
-</style>
+// }</style>
 <!-- <style scoped>
 .el-header,
 .el-footer {
