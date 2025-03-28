@@ -1,9 +1,6 @@
-package org.shaco.yizheng_crm_back.common.swagger;
+package org.shaco.yizheng_crm_back.sys.swagger;
 
-
-
-
-import org.shaco.yizheng_crm_back.common.module.IDict;
+import org.shaco.yizheng_crm_back.sys.common.IDict;
 
 import java.lang.annotation.*;
 

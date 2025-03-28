@@ -1,12 +1,12 @@
-package org.shaco.yizheng_crm_back.common.swagger;
+package org.shaco.yizheng_crm_back.sys.swagger;
 
-import jakarta.servlet.http.HttpServletResponse;
+//import jakarta.servlet.http.HttpServletResponse;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
-//import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**

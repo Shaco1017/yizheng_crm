@@ -1,4 +1,4 @@
-package org.shaco.yizheng_crm_back.common.swagger;
+package org.shaco.yizheng_crm_back.sys.swagger;
 
 import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;

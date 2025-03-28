@@ -1,4 +1,4 @@
-package org.shaco.yizheng_crm_back.common.swagger;
+package org.shaco.yizheng_crm_back.sys.swagger;
 
 import com.fasterxml.jackson.databind.introspect.AnnotatedField;
 import com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition;

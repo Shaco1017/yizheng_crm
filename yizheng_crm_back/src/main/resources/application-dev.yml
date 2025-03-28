@@ -1,4 +1,7 @@
 spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
@@ -37,3 +40,19 @@ server:
   servlet:
     context-path: /yizheng_crm
   port: 8086
+##knife4j配置
+#knife4j:
+#  #是否启用增强设置
+#  enable: true
+#  #开启生产环境屏蔽
+#  production: false
+#  #是否启用登录认证
+#  basic:
+#    enable: true
+#    username: admin
+#    password: 123456
+#  setting:
+#    enable-version: true
+#    enable-swagger-models: true
+#    swagger-model-name: 用户模块
+#    language: zh-CN

@@ -1,4 +1,4 @@
-package org.shaco.yizheng_crm_back.config;
+package org.shaco.yizheng_crm_back.sys.config;
 
 import com.baomidou.mybatisplus.generator.FastAutoGenerator;
 import com.baomidou.mybatisplus.generator.config.OutputFile;
