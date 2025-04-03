@@ -1,5 +1,6 @@
 package org.shaco.yizheng_crm_back.sys.mapper;
 
+import org.apache.ibatis.annotations.Param;
 import org.shaco.yizheng_crm_back.sys.entity.SysRole;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
@@ -12,5 +13,5 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @since 2025-03-28
  */
 public interface SysRoleMapper extends BaseMapper<SysRole> {
-
+    int checkRoleCanDelete(@Param("roleId") Long roleId);
 }

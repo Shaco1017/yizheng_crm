@@ -1,11 +1,12 @@
-package org.shaco.yizheng_crm_back.sys.swagger;
+package org.shaco.yizheng_crm_back.common.swagger;
 
-import org.shaco.yizheng_crm_back.sys.common.IDict;
+import org.shaco.yizheng_crm_back.common.IDict;
 
 import java.lang.annotation.*;
 
 /**
  * Swagger文档注释枚举翻译
+ * TODO 看不懂
  */
 @Documented
 @Target({ElementType.METHOD, ElementType.FIELD})

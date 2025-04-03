@@ -1,4 +1,4 @@
-package org.shaco.yizheng_crm_back.sys.common;
+package org.shaco.yizheng_crm_back.common;
 
 import lombok.Data;
 

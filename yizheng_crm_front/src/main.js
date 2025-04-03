@@ -9,10 +9,13 @@ import store from './store'
 import ElementUI from 'element-ui'
 // 导入组件样式
 import 'element-ui/lib/theme-chalk/index.css';
+
+import axios from 'axios'
 // 配置ElementUI插件
 Vue.use(ElementUI)
 
-
+Vue.prototype.$http = axios
+axios.defaults.baseURL="http://localhost:8086/yizheng_crm/"
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

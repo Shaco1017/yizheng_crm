@@ -1,4 +1,4 @@
-package org.shaco.yizheng_crm_back.sys.config;
+package org.shaco.yizheng_crm_back.config;
 
 import com.baomidou.mybatisplus.generator.FastAutoGenerator;
 import com.baomidou.mybatisplus.generator.config.OutputFile;
@@ -28,7 +28,7 @@ public class MyFastGeneratorConfiguration {
                             .pathInfo(Collections.singletonMap(OutputFile.xml, "D:/WorkSpace/FBYWorkSpace/yizheng_crm_back_output"));  // 设置mapperXml生成路径
                 })
                 .strategyConfig(builder -> {
-                    builder.addInclude("sys_menu");  // 设置需要生成的表名
+                    builder.addInclude("sys_log");  // 设置需要生成的表名
                     //.addTablePrefix("act_fo_")  // 设置过滤表前缀
                 })
                 // 使用Freemarker引擎模板，默认的是Velocity引擎模板

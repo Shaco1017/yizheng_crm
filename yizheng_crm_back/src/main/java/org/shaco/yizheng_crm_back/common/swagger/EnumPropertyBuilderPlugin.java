@@ -1,11 +1,11 @@
-package org.shaco.yizheng_crm_back.sys.swagger;
+package org.shaco.yizheng_crm_back.common.swagger;
 
 import com.fasterxml.jackson.databind.introspect.AnnotatedField;
 import com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.extern.slf4j.Slf4j;
-import org.shaco.yizheng_crm_back.sys.common.IDict;
+import org.shaco.yizheng_crm_back.common.IDict;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spi.schema.ModelPropertyBuilderPlugin;
 import springfox.documentation.spi.schema.contexts.ModelPropertyContext;

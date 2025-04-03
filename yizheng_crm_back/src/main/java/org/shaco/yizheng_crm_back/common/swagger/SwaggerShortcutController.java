@@ -1,4 +1,4 @@
-package org.shaco.yizheng_crm_back.sys.swagger;
+package org.shaco.yizheng_crm_back.common.swagger;
 
 //import jakarta.servlet.http.HttpServletResponse;
 import org.apache.commons.lang3.StringUtils;

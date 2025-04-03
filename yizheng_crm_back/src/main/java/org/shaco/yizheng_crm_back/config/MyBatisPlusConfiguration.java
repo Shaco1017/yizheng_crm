@@ -1,4 +1,4 @@
-package org.shaco.yizheng_crm_back.sys.config;
+package org.shaco.yizheng_crm_back.config;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
